@@ -1,6 +1,5 @@
 from typing import TypedDict
 
-
 class AgentState(TypedDict):
     user_input: str
     startup_idea: str
