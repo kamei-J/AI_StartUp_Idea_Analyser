@@ -1,3 +1,4 @@
+
 # Startup Validation Report
 
 **Idea:** AI social media content generator
