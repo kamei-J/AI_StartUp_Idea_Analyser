@@ -213,7 +213,6 @@ Use the evidence above to validate the claims.
 
     return {"fact_check_report": response.content}
 
-
 graph = StateGraph(AgentState)
 
 graph.add_node("planner", planner_agent)
