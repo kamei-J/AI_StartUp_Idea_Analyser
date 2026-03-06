@@ -1,7 +1,6 @@
 from langchain_community.tools import WikipediaQueryRun
 from langchain_community.utilities import WikipediaAPIWrapper
 
-
 def wikipediaQueryRunner_with_error_handling():
     class SafeWikipediaQueryRunner(WikipediaQueryRun):
         def run(self, query: str) -> str:
