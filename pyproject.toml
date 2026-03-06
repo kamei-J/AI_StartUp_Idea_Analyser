@@ -5,7 +5,6 @@ description = "It is an AI agent that analyzes startup ideas and provides insigh
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.134.0",
     "langchain>=1.2.10",
     "langchain-community>=0.4.1",
     "langchain-experimental>=0.1.0",
@@ -14,6 +13,5 @@ dependencies = [
     "pydantic>=2.12.5",
     "python-dotenv>=1.2.1",
     "langchain-tavily>=0.1.0",
-    "uvicorn>=0.41.0",
     "groq>=0.31.0",
 ]
